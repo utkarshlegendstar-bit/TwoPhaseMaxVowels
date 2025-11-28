@@ -1,7 +1,9 @@
 //# TwoPhaseMaxVowels
 //O(n) Two-Phase Max Vowel Algorithm by //10th Grader
 
-class TwoPhaseMaxVowels {
+
+        
+    class TwoPhaseMaxVowels {
     public static void main(String[] args) {
         String s = "Ram Nam Satya AA ei ou Hein".trim();
         // Phase 1: Extract first word as baseline
@@ -36,5 +38,4 @@ class TwoPhaseMaxVowels {
         }
         System.out.println(result);
     }
-}
-
+}    
